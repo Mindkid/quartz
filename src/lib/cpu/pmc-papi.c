@@ -14,8 +14,8 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #include <papi.h>
 #include <pthread.h>
 #include <sys/syscall.h>
-#include "cpu/pmc-papi.h"
-#include "debug.h"
+#include "pmc-papi.h"
+#include "../debug.h"
 
 __thread int tls_event_set = PAPI_NULL;
 

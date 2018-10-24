@@ -16,9 +16,8 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #include <regex.h>
 #include <string.h>
 #include "cpu.h"
-#include "dev.h"
-#include "error.h"
-#include "misc.h"
+#include "../error.h"
+#include "../misc.h"
 #include "known_cpus.h"
 #include "xeon-ex.h"
 #include <cpuid.h>

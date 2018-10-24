@@ -16,7 +16,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
 #include <stddef.h>
 #include <stdint.h>
-#include "dev.h"
+#include "../dev.h"
 
 #define MAX_THROTTLE_VALUE 1023
 

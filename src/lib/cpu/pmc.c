@@ -12,11 +12,11 @@ with this program; if not, write to the Free Software Foundation,
 Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 ***************************************************************************/
 #include <stdlib.h>
-#include "cpu/pmc.h"
-#include "dev.h"
-#include "error.h"
-#include "thread.h"
-#include "topology.h"
+#include "pmc.h"
+#include "../dev.h"
+#include "../error.h"
+#include "../thread.h"
+#include "../topology.h"
 
 #pragma GCC push_options
 #pragma GCC optimize ("O0")

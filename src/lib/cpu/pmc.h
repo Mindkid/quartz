@@ -14,7 +14,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #ifndef __CPU_PMC_H
 #define __CPU_PMC_H
 
-#include "cpu/cpu.h"
+#include "cpu.h"
 
 #define DECLARE_ENABLE_PMC(prefix, name) int prefix##_create_pmc_##name(struct pmc_events_s* events, struct pmc_event_s* event)
 #define DECLARE_CLEAR_PMC(prefix, name) void prefix##_clear_pmc_##name(struct pmc_event_s* event)

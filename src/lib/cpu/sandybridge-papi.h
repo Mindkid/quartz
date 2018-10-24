@@ -16,7 +16,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
 #include <papi.h>
 #include <math.h>
-#include "debug.h"
+#include "../debug.h"
 
 // Perfmon2 is a library that provides a generic interface to access the PMU. It also comes with
 // applications to list all available performance events with their architecutre specific 

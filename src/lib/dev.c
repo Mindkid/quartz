@@ -18,7 +18,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #include <stdint.h>
 #include <unistd.h>
 #include <errno.h>
-#include "dev/ioctl_query.h"
+#include "../dev/ioctl_query.h"
 #include "error.h"
 #include "dev.h"
 

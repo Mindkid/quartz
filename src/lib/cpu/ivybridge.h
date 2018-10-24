@@ -15,9 +15,9 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 #define __CPU_IVYBRIDGE_H
 
 #include <math.h>
-#include "thread.h"
-#include "cpu/pmc.h"
-#include "debug.h"
+#include "../thread.h"
+#include "pmc.h"
+#include "../debug.h"
 
 // Perfmon2 is a library that provides a generic interface to access the PMU. It also comes with
 // applications to list all available performance events with their architecture specific
